@@ -13,3 +13,9 @@ export default {
   name: "logo",
 };
 </script>
+<style scoped>
+.container {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+}
+</style>

@@ -62,7 +62,7 @@
         </div>
         <!-- ================== -->
 
-        <div class="container d-flex flex-wrap justify-content-center">
+        <!-- <div class="container d-flex flex-wrap justify-content-center">
           <div class="row w-100">
             <div class="pub_image d-flex">
               <div class="pub_image1">
@@ -85,7 +85,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -102,9 +102,9 @@ export default {
 /* ____[header]  */
 .home_header {
   position: relative;
-  margin-bottom: 3rem;
-  padding-top: calc(8rem + 57px);
-  padding-bottom: 8rem;
+  /* margin-bottom: 3rem; */
+  /* padding-top: calc(8rem + 57px); */
+  /* padding-bottom: 8rem; */
   background: no-repeat center center;
   background-color: #6c757d;
   background-size: cover;
