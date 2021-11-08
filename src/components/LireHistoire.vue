@@ -1,33 +1,6 @@
 <template>
   <div>
-    <h1>TELE</h1>
-    <div class="container d-flex flex-wrap justify-content-center">
-      <div class="row">
-        <div class="buttons">
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic mixed styles example"
-          >
-            <button type="button" class="btn btn-danger mx-5 my-3">
-              Histoire
-            </button>
-            <button type="button" class="btn btn-warning mx-5 my-3">
-              Actualité
-            </button>
-            <button type="button" class="btn btn-success mx-5 my-3">
-              Arts
-            </button>
-            <button type="button" class="btn btn-danger mx-5 my-3">
-              Sport
-            </button>
-            <button type="button" class="btn btn-warning mx-5 my-3">
-              Bizness
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h1>Lire Histoire</h1>
 
     <!-- -------------------------------------  -->
 
@@ -51,7 +24,7 @@
         </div>
       </div>
       <div class="card-body">
-        <p class="text-start text-white-50">
+        <p class="text-white-50">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo et
           sequi similique quasi neque! Ratione dolorum nihil a veniam quos autem
           nostrum animi odit eos. Perspiciatis aliquid tenetur, quasi, eum
@@ -72,7 +45,7 @@
         />
       </div>
       <div class="card-body">
-        <p class="text-start text-white-50">
+        <p class="text-white-50">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo et
           sequi similique quasi neque! Ratione dolorum nihil a veniam quos autem
           nostrum animi odit eos. Perspiciatis aliquid tenetur, quasi, eum
@@ -88,7 +61,7 @@
 
 <script>
 export default {
-  name: "tele",
+  name: "LireHistoire",
   components: {},
 };
 </script>
@@ -102,5 +75,12 @@ export default {
   position: relative;
   display: contents;
   vertical-align: middle;
+}
+.flex-shrink-0 {
+  justify-content: center;
+  display: flex;
+}
+.text-white-50 {
+  text-align: justify;
 }
 </style>

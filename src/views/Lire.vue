@@ -1,16 +1,19 @@
 <template>
   <div class="lires">
     <!-- <Logo /> -->
-    <Text />
+    <!-- <Navbar /> -->
+    <Lire />
   </div>
 </template>
 
 <script>
-import Text from "@/components/Text";
+import Lire from "@/components/Lire";
+// import Navbar from "@/components/Navbar";
 // import Logo from "@/components/Logo";
 export default {
   components: {
-    Text,
+    Lire,
+    // Navbar,
     // Logo,
   },
 };

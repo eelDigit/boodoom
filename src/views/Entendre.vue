@@ -1,16 +1,20 @@
 <template>
   <div class="entendre">
     <!-- <Logo /> -->
-    <Audio />
+    <!-- <Navbar /> -->
+    <Entendre />
   </div>
 </template>
 
 <script>
-import Audio from "@/components/Audio";
+import Entendre from "@/components/Entendre";
+// import Navbar from "@/components/Navbar";
+
 // import Logo from "@/components/Logo";
 export default {
   components: {
-    Audio,
+    Entendre,
+    // Navbar,
     // Logo,
   },
 };

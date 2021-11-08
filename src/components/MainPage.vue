@@ -34,7 +34,7 @@
           </router-link>
         </div>
         <div class="container my-5 just">
-          <router-link to="/Text">
+          <router-link to="/Lire">
             <button type="button" class="btn btn-danger btn-lg mx-5 my-3">
               <div class="img-fluid">
                 <img alt="Vue logo" src="../assets/images/cahier.jpg" />
@@ -42,7 +42,7 @@
               LIRE
             </button>
           </router-link>
-          <router-link to="/Audio">
+          <router-link to="/Entendre">
             <button type="button" class="btn btn-warning btn-lg mx-5 my-3">
               <div class="img-fluid">
                 <img src="../assets/images/micro.jpg" alt="pub" />
@@ -50,7 +50,7 @@
               ENTENDRE
             </button>
           </router-link>
-          <router-link to="/Tele">
+          <router-link to="/Voir">
             <button type="button" class="btn btn-success btn-lg mx-5 my-3">
               <div class="img-fluid">
                 <img src="../assets/images/video.jpg" alt="pub" />
